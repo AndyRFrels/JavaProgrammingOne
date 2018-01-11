@@ -24,6 +24,7 @@ public class C6_18
      * passCheck Method - check the content of the password and its length.
      *
      * @param pass The password entered by the user.
+     * @return returns whether or not the password is valid.
      */
     public static String passCheck(String pass)
     {

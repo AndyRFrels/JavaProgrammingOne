@@ -73,6 +73,7 @@ public class P6
      *
      * @param dollarsEntered The amount of US dollars to be converted.
      * @param foreignCurrencyChosen The type of foreign currency the user wanted to convert.
+     * @return return the amount of foreign currency received.
      */
     public static double calculateCurrency(double dollarsEntered, double foreignCurrencyChosen)
     {
