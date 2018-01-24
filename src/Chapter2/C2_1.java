@@ -1,4 +1,5 @@
 package Chapter2;
+
 import java.util.Scanner;
 
 /**
@@ -6,19 +7,18 @@ import java.util.Scanner;
  *
  * @author Andy Frels
  */
-public class C2_1
-{
+public class C2_1 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         System.out.println("Enter degrees in Celsius: ");
         Scanner input = new Scanner(System.in);
         double celsius = ((9 / 5) * input.nextDouble()) + 32;
         System.out.println("That is " + celsius + " degrees in farenheit");
     }
-    
+
 }
