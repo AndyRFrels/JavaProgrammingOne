@@ -1,19 +1,21 @@
 package Chapter2;
+
 import java.util.Scanner;
+
 /**
- *Display the total cost of an item based on the entered gratuity rate and subtotal.
- * 
+ * Display the total cost of an item based on the entered gratuity rate and
+ * subtotal.
+ *
  * @author Andy Frels
  */
-public class C2_5 
-{
-     /**
+public class C2_5 {
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a subtotal: ");
         double subtotal = input.nextDouble();

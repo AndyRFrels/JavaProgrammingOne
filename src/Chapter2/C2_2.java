@@ -1,4 +1,5 @@
 package Chapter2;
+
 import java.util.Scanner;
 
 /**
@@ -6,15 +7,14 @@ import java.util.Scanner;
  *
  * @author Andy Frels
  */
-public class C2_2
-{
+public class C2_2 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the radius of the cylinder in cm: ");
         double radius = input.nextDouble();

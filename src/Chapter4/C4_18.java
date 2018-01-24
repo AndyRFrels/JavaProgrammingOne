@@ -3,19 +3,19 @@ package Chapter4;
 import java.util.Scanner;
 
 /**
- * Determine a persons major and grade level based upon entered integers only allowing (M C and I)(1 2 3 and 4).
- * 
+ * Determine a persons major and grade level based upon entered integers only
+ * allowing (M C and I)(1 2 3 and 4).
+ *
  * @author Andy Frels
  */
-public class C4_18 
-{
+public class C4_18 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter two characters");
         String charactersEntered = input.nextLine();
@@ -56,8 +56,7 @@ public class C4_18
                 studentLevel = "no";
                 break;
         }
-        if(!"no".equals(studentLevel) && !"no".equals(classTaken))
-        {
+        if (!"no".equals(studentLevel) && !"no".equals(classTaken)) {
             System.out.println(classTaken + " " + studentLevel);
         }
     }

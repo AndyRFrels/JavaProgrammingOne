@@ -1,19 +1,21 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
- * Intake and display an employee's name, hours worked, pay rate, witholding rate(fed and state), gross pay, and net pay.
+ * Intake and display an employee's name, hours worked, pay rate, witholding
+ * rate(fed and state), gross pay, and net pay.
  *
  * @author Andy Frels
  */
-public class C4_23 
-{
+public class C4_23 {
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the employee's name");
         String employeeName = input.nextLine();
@@ -36,5 +38,5 @@ public class C4_23
         System.out.printf("\n\tTotal Withholding: $%.2f", (stateRate * (hoursWorked * hourlyPay)) + (federalRate * (hoursWorked * hourlyPay)));
         System.out.printf("\nNet Pay: $%.2f", ((hoursWorked * hourlyPay) - ((stateRate * (hoursWorked * hourlyPay)) + (federalRate * (hoursWorked * hourlyPay)))));
     }
-    
+
 }
